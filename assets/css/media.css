@@ -1,0 +1,29 @@
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  [class*="col-"]{
+    width: 100%;
+  }
+  .container{
+    background-image: url(../img/night.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .large{
+    content: url(../img/kitten-small.png); 
+  }
+}
+
+@media (max-width: 767px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  .container{
+    background-image: url(../img/sunny-day.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .large{
+    content: url(../img/kitten-medium.png);
+  }
+}
